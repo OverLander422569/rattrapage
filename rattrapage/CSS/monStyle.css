@@ -1,0 +1,24 @@
+h1 {
+    color : violet;
+    text-align: center;
+}
+
+
+.contenu {
+    display: inline-block;
+    position:absolute;
+    top : 150px;
+    left : 150px;
+}
+
+#help {
+    color: red;
+}
+
+.text {
+    font-style: bold;
+    font-size: 22px;
+    text-decoration: inherit;
+
+}
+

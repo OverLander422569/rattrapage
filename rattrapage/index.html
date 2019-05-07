@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Rattrapage</title>
+    <link rel="stylesheet" href="CSS/monStyle.css">
+</head>
+<body onload="loadUser">
+
+    <div id="target">
+        Loading...
+    </div>
+
+        <script id="template" type="x-tmpl-mustache">
+            <h1>{{titre}}</h1>
+        </script>
+
+    <div class=conteneur>
+        &nbsp;
+        <div class="contenu">
+            <p class="text">But du jeu ?</p>
+            <p class="text"> Découvrez le nombre auquel je pense !</p>
+            <p id="random"></p>
+
+            <p class = "text" id="help"> </p>
+
+            <label>Quelle est votre réponse ?</label>
+            <input type="text" placeHolder="Votre proposition..." id="PropositionField" />
+            <button id="SubmitButton">C'est mon dernier mot !</button>
+            <div id="NbClic"></div>
+            <ul id="ListeRep">
+
+            </ul>
+            <p id="tableau"></p>
+
+            <a href="output.html">api</a>
+
+        </div>
+    </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/mustache.min.js"></script>
+    <script src="js/template.js"></script>
+    <script src="js/scriptTest.js"></script>
+
+</body>
+</html>
